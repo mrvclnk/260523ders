@@ -36,34 +36,45 @@
     margin: 0;
     padding: 0;
 }
-.menuitem{
+
+.menuitem {
     background-color: #cdf0f6;
     border: 1px solid #d4d4d4;
     margin: 4px;
     padding: 2px;
 }
-.addtocard{
-   display: none; /*480px altında buton gozukmesın*/    
+
+.addtocard {
+    display: none;
+    /*480px altında buton gozukmesın*/
 }
+
 @media screen and (min-width:480px) {
-    .addtocard{
-        display: inline-block;/*480px altında buton gozukmesın*/     
-     }
-    #left-sidebar{
-        width:200px;
-        float: left;/*sola yasla */
+    .addtocard {
+        display: inline-block;
+        /*480px altında buton gozukmesın*/
     }
-    .menuitem{
-    background-color: brown;
+
+    #left-sidebar {
+        width: 200px;
+        float: left;
+        /*sola yasla */
+    }
+
+    .menuitem {
+        background-color: brown;
+    }
+
+    #main {
+        margin-left: 216px;
+    }
 }
-#main{
-    margin-left: 216px;
-}
-}
-@media(orientation:landscape){
-    .header{
+
+@media(orientation:landscape) {
+    .header {
+        /*480px altında arkaplan sıyah,yazı beyaz olsun*/
         background-color: black;
         color: white;
     }
-   
+
 }
