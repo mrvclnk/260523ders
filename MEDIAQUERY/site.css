@@ -1,0 +1,69 @@
+/* body{
+    background-color: lightblue;
+}
+@media screen and (min-width:300px){
+    body{
+        background-color: darkred;
+    }
+}
+@media screen and (min-width:600px) {
+    body{
+        background-color: darkblue;
+    }
+} */
+
+
+
+
+
+/* Gerçek hayat proje örneği */
+.wrapper {
+    overflow: auto;
+    /*overflow:taşmak*/
+}
+
+#main {
+    margin-left: 4px;
+}
+
+#left-sidebar {
+    float: none;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#menulist {
+    margin: 0;
+    padding: 0;
+}
+.menuitem{
+    background-color: #cdf0f6;
+    border: 1px solid #d4d4d4;
+    margin: 4px;
+    padding: 2px;
+}
+.addtocard{
+   display: none; /*480px altında buton gozukmesın*/    
+}
+@media screen and (min-width:480px) {
+    .addtocard{
+        display: inline-block;/*480px altında buton gozukmesın*/     
+     }
+    #left-sidebar{
+        width:200px;
+        float: left;/*sola yasla */
+    }
+    .menuitem{
+    background-color: brown;
+}
+#main{
+    margin-left: 216px;
+}
+}
+@media(orientation:landscape){
+    .header{
+        background-color: black;
+        color: white;
+    }
+   
+}
